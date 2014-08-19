@@ -1,0 +1,120 @@
+/*********************************
+HEADER
+*********************************/
+
+.l-header {
+  float: left;
+  width: 100%;
+  margin: -20px 0 0 0;
+  height: 50%;
+  background-color: #b5b5b7;
+}
+.l-header__img--left {
+  float: left;
+  max-width: 100%
+}
+
+.l-header__text__tagline {
+  white-space: nowrap;
+  display: inline-block;
+  margin: 90px 0 0 220px;
+  color: #2b4249;
+  opacity: .85;
+  min-width: 500px;
+  font-family: 'Galindo', cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.l-header__text__about {
+  color: white;
+  margin: 0 0 0 235px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  max-width: 30%;
+  text-align: center;
+}
+
+/*********************************
+NAVIGATION
+*********************************/
+
+
+.l-nav a:hover {
+  color: white;
+}
+
+.l-nav a {
+
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 1.6em;
+  margin: 10px 0px 10px 88px;
+  font-family: 'Galindo', cursive;
+  color: #2b4249;
+  text-decoration: none;
+}
+
+.l-nav {
+  clear: left;
+  background-color: #ccc;
+  margin: 0;
+  width: 100%;
+  min-width: 500px;
+}
+
+/*********************************
+PAGE
+*********************************/
+
+.l-wrapper {
+  height: 100%;
+  display: flex;
+  width: 90%;
+  margin: 40px ;
+}
+
+.l-aside {
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 140px 0 50px;
+  max-width: 30%;
+  min-width: 29%;
+}
+
+.l-aside a {
+  text-decoration: none;
+}
+
+.l-aside a:hover {
+  color: gray;
+}
+
+.l-main {
+  margin: 35px 0;
+}
+
+.l-main__article {
+  max-width: 70%
+  min-width: 70%;
+}
+
+.l-main__article__text {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+  font-size: 1.3em;
+  max-width: 1
+}
+
+.l-main__article__img {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto 40px;
+}
+
+.l-main__article__heading {
+  text-align: center;
+  font-family: 'Galindo', cursive;
+  margin: 50px 0;
+}
